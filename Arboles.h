@@ -20,12 +20,6 @@ Profundidad: Cantidad de niveles que tiene
 Altura: El nivel más profundo. Profundidad - 1
 */
 
-int profundidad(Nodo* raiz){
-	if (raiz == NULL)
-		return 0;//Para tener la altura puedo poner acá un -1
-	else
-		return 1 + maximo (profundidad(raiz -> hijoIzq), profundidad(raiz -> hijoDer));
-}
 
 int maximo (int a, int b){
 	if (a > b)
