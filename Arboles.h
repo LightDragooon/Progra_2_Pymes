@@ -1,37 +1,4 @@
-int cantidadDeElementos(Nodo* raiz){
-	if (raiz == NULL)
-		return 0;
-	else
-		return 1 + cantidadDeElementos (raiz -> hijoIzq) + cantidadDeElementos (raiz -> hijoDer);
-}
-
-int cantidadDeHojas (Nodo* raiz){
-	if (raiz == NULL)
-		return 0;
-	else if (raiz -> hijoIzq == NULL && raiz -> hijoDer == NULL)
-		return 1;
-	else
-		return cantidadDeHojas (raiz -> hijoIzq) + cantidadDeHojas (raiz -> hijoDer);
-}
-
-
-/*
-Profundidad: Cantidad de niveles que tiene
-Altura: El nivel más profundo. Profundidad - 1
-jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-*/
-
-
-int maximo (int a, int b){
-	if (a > b)
-		return a;
-	return b;
-}
-
-void insertar (int dato){
-	raiz = insertar(dato, raiz)
-}
-
+Evelio Estuvo Aquí
 void insertar(int valor, Nodo* nodo){//Talvez no funcione, arreglar
 	if (nodo == NULL)
 		return new Nodo(valor);
