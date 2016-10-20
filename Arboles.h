@@ -18,6 +18,7 @@ int cantidadDeHojas (Nodo* raiz){
 /*
 Profundidad: Cantidad de niveles que tiene
 Altura: El nivel más profundo. Profundidad - 1
+jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
 */
 
 
